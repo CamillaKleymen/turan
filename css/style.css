@@ -2,6 +2,7 @@
     --border-gray: #334155;
     --text-blue:#2FBADB;
     --text-dark:#291843;
+    --light-gray:#D9D9D9;
 }
 
 
@@ -72,7 +73,7 @@ button {
 }
 
 .btn-outline-danger:hover {
-    background-color: #ffffff;
+    background-color: #ff0000;
     color: #fff;
 }
 
@@ -104,4 +105,34 @@ button {
 
 .text-blue{
     color:var(--text-blue);
+}
+
+/* .breadcrumb{
+    border: 2px solid black; 
+    padding: 10px;
+    list-style: none;
+    background-color: #f8f9fa;
+} */
+
+.row-border{
+    width: 100%;
+    height: 1px; 
+    background-color: var(--light-gray); 
+    margin: 0px;
+}
+
+.card-req{
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+}
+
+.card-req p{
+    /* font-size: 14px; */
+    color:black;
+    border-right: var(--light-gray);
+    border-right: 2px solid var(--light-gray);
+    /* border-right-height: 100%; */
 }
