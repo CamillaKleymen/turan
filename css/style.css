@@ -146,8 +146,10 @@ button {
 }
 
 .card-es{
-    border-left: 4px solid var(--border-blue);
+    border-left: 2px solid var(--border-blue);
     margin: 1rem;
+    height: 100px;
+    
 }
 
 
@@ -185,4 +187,11 @@ button {
 
 .card-debitor p{
     color:#291843;
+}
+
+.card-etika{
+    
+    margin: 1rem;
+    border-right: 3px solid var(--border-blue); 
+    height: 70px;
 }
