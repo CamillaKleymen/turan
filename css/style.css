@@ -149,3 +149,19 @@ button {
     border-left: 4px solid var(--border-blue);
     margin: 1rem;
 }
+
+
+.card-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+/* .card-link {
+    /* font-size: 0.8rem; */
+    /* color: #666; */
+    /* text-decoration: none;
+    display: block;
+    margin-bottom: 50px;;
+} */ 
